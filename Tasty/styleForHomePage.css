@@ -1,0 +1,178 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+#grayTable
+{
+    background: rgb(99, 91, 91);
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* make the upper tool bar to be on the left side */
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover 
+{
+    background-color: #111;
+}
+
+/* Navbar container */
+.navbar 
+{
+    overflow: hidden;
+    background-color:#F0F0F0;
+    font-family: Arial, Helvetica, sans-serif;  
+    width: 50%;  
+    margin:auto; /* This will center the nav bar for choosing a Restaurant*/  
+}
+
+/* The dropdown container */
+.dropdown 
+{
+    float: right;
+    overflow: hidden;
+    
+}
+  
+  /* Dropdown button */
+.dropdown .dropbtn 
+{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+  
+
+
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn 
+{
+    background-color: #ddd;
+    
+}
+  
+  /* Dropdown content (hidden by default) */
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+  
+  /* Links inside the dropdown */
+.dropdown-content a 
+{
+    float:none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
+    text-align: right;
+}
+  
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover 
+{
+    background-color: #ddd;
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+/* This is the 4 select boxes and the save button*/
+#numOfPeople
+{
+    background-color: white;
+    padding: 14px;
+    width: 120px;
+    
+}
+#chooseRestaurant  
+{
+    background-color: white;
+    padding: 14px;
+    width: 140px;
+}
+#DateImEating
+{
+    background-color: white;
+    padding: 14px;
+    width: 120px;
+}
+#hourImArraiving
+{
+    background-color: white;
+    padding: 14px; 
+    width: 120px;
+}
+#findMeARes /* This is the button for saving my reservation */
+{
+    color: white;
+    background-color:dodgerblue;
+    font-size: 15px;
+    padding: 12px
+}
+
+#findMeARes:hover{
+    background-color:rgb(134, 190, 236);
+}
+
+
+#TopThreeHeader
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#TopThreePic
+{
+    text-align: center;
+}
+
+#footer 
+{
+    clear: left; /* Cannot float on Left */
+    width: 100%;
+    background:  #333;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-align: center;
+    padding: 4px;
+}

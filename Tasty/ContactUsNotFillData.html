@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = styleForContactUs.css>
+</head>
+<body>
+
+<div id="header">
+    <ul>
+        <li><a class="active" href="MyHome.html">Home</a></li>
+        <li><a href="AboutUs2.html">About me</a></li>
+        <li><a href="Login.html">Login</a></li>
+    <li><a href="SignUp.html">Sign up</a></li>
+    <li><a href="ContactUs.html">Contact me</a></li>		 
+    <li><a href="LoginForAdmin.html" >Admin</a></li>	 
+    </ul>
+</div>
+<div class="ContactHeader">
+<h1>Contact Form</h1>
+</div>
+ 
+<form method="post" action = phpContact.php id="contact" style= border:1>  
+  <div class="container" align=center>
+    <h2>Please enter data in all the fields</h2>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <br>
+    <br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <br>
+    <br>
+    <input type="text" id="subject" name="subject" placeholder="write something.." >
+    <br>
+    <button type="submit" class="button" value= "Submit" >send</button>
+    <br>
+  </div>
+</form>
+
+<script src="js/jsContactUs.js" >
+        
+</script>
+
+</body>
+</html>

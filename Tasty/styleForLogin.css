@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+.Headline
+{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+.LogInHeader {
+    padding: 25px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+    }
+
+.logIn
+{
+    border: groove;
+    width: 400px;
+    height: 300px;
+    margin-top: 5%;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #d2d1dd, #333);
+}
+
+.logInText
+{
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input 
+{
+    color: #fff;
+	font-size: 2em;
+	justify-content: center;
+	display: flex;
+	margin-top: 2px;
+	font-weight: bold;
+	cursor: pointer;
+} 
+
+.textBoxSize
+{
+    width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.btn
+{
+    background-color: rgb(6, 7, 7);
+    font-size:"150px";
+    color: whitesmoke;
+    width:100px;
+    height: 35px;
+    border-radius: 25px;
+    border-style: double;
+}
+
+.homePageBody
+{   
+    background-image:url("pic/zoo10.png") ;
+    background-size: cover; 
+}
+
+.loginPage
+{
+    background-image:url("img/9.jpg");
+    background-size:cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* make the upper tool bar to be on the left side */
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: #111;
+}
+
+#logAd
+{
+    border: 1px;
+    border-color: black;
+    background-color:dodgerblue;
+}

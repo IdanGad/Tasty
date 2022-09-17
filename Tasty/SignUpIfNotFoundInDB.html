@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <link rel = "stylesheet" href = styleForSignUp.css>
+  <div id="header">
+		<ul>
+		  <li><a class="active" href="MyHome.html">Home</a></li>
+		  <li><a href="AboutUs2.html">About me</a></li>
+		  <li><a href="Login.html">Login</a></li>
+      <li><a href="SignUp.html">Sign up</a></li>
+      <li><a href="ContactUs.html">Contact me</a></li>
+      <li><a href="LoginForAdmin.html" >Admin</a></li>			  
+		</ul>
+	</div>
+</head>
+<html>
+
+<body>
+  <div class="SignUpHeader">
+    <h1>SignUp Form2</h1> 
+  </div>
+
+<form  method="post" action = phpAddingUserToDb.php style="border:1px solid #ccc">
+  <div class="container" align ="center">
+    <h2>Sorry, you are not in our database. pls sign up.</h2> 
+    <input id=UserName type="text" placeholder="Name..." name="NameOfNewUser"   required>
+    <br>
+    <br>
+    <input id=UserPassword type="password" placeholder="Password..." name="pswOfNewUser" required>
+    <br>
+    <br>
+    <input id = ReUserPassword type="password" placeholder="Repeat Password..." name="psw-repeat" required>
+    <br>
+    <br>
+    <!-- <label for="email"><b></b></label><br> -->
+    <input id = userEmail type="text" placeholder="Email..." name="emailOfNewUser"  pattren ="[a-z0-9._%+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+    <br>
+    <br>
+    <input id=phoneNumber type="text" placeholder="Phone number..." name="PhoneNumberOfNewUser"   required>
+    <br>
+    <br>
+    <div class="clearfix">
+      <button id= sighInbtn type="submit" >Sign up</button>
+    </div>
+  </div>
+</form>
+<script src="js/jsForSignUp.js" >
+        
+</script>
+
+</body>
+</html>

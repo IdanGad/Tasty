@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <center>
+        <link rel = "stylesheet" href = styleForLogin.css>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+    </center>
+</head>
+
+<body class = "loginPage">
+    <div id="header">
+		<ul>
+		  <li><a class="active" href="MyHome.html">Home</a></li>
+		  <li><a href="AboutUs2.html">About us</a></li>
+		  <li><a href="Login.html">Login</a></li>
+          <li><a href="SignUp.html">Sign up</a></li>
+          <li><a href="ContactUs.html">Contact us</a></li>		
+          <li><a href="LoginForAdmin.html" >Admin</a></li>	  
+		</ul>
+	</div>
+    <div class="LogInHeader">
+        <h1>Login Form</h1>
+      </div>
+    <center>
+        <form id="logInBox" style= border:1 class="logIn">
+            <div class=logInText>
+                <label>Hi Admin!</label> 
+            </div>
+            <div class="input">
+                <input name ='user' id="userName" type="text" placeholder="User Name" required class="textBoxSize">
+                <br> 
+                <br>  
+            </div>
+            <div class="input">
+                <input name = 'password' id="Password" type="password" placeholder="Password" required class="textBoxSize">
+                <br> 
+                <br>  
+            </div>
+            <text id="logAd" onclick=checkAdmin()>Login Admin</text>
+            
+        </form>
+    </center>
+</body>
+<script src="js/jsLogin.js">
+</script>
+</html>

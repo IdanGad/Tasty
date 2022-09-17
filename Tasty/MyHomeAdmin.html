@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- This href is linking the homePage to the style css page "styleForHomePage.css" -->
+    <link rel = "stylesheet" href = styleForHomePageAdmin.css>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Admin</title>
+
+</head>
+<body>
+    <!-- This is the line at the top -->
+    <div id="header">
+		<ul>
+        <li><a class="active" href="MyHome.html" >Home</a></li>
+        <li><a href="AboutUs2.html" >About me</a></li>
+        <li><a href="Login.html" >Login</a></li>
+        <li><a href="SignUp.html" >Sign up</a></li>
+        <li><a href="ContactUs.html" >Contact me</a></li>
+        <li><a href="LoginForAdmin.html" >Admin</a></li>			  
+		</ul>
+	</div>
+
+    <!--this is the first two black headlines-->
+    <table id=greyTable width="100%" height="150" border="0" cellspacing="5" cellpadding="5" >
+        <tr>	
+            <td align="center">
+                <table width="708" border="0" cellspacing="1" cellpadding="1">
+                    <tr>
+                    <td width="338" align="center"><font face="verdana" color="black" size="5"><strong>Save Your Plate</strong><br/>Website</font></td>
+                    <td width="291" align="center"><font face="verdana" color="black" size="5"><strong>High Rated Meals</strong><br/>#TASTY</font></td>
+                    </tr>
+                </table>		
+            </td>	
+        </tr>
+    </table>
+
+    <!--table for the pictures-->
+    <table width="50%" height="150" border="0" cellspacing="5" cellpadding="5" bgcolor="#F0F0F0" align="center">
+        <tr>	
+            <td align="center">
+                <table width="708" border="0" cellspacing="1" cellpadding="1">
+                    <tr>
+                    <td><img src="img\4.jpg" alt="me" style="width: 130px"/></td>
+                    <td><img src="img\3.jpg" alt="me" style="width: 130px"/></td>
+                    <td><img src="img\2.jpg" alt="me" style="width: 130px"/></td>
+                    <td><img src="img\1.jpg" alt="me" style="width: 130px"/></td>
+                    <td><img src="img\5.jpg" alt="me" style="width: 130px"/></td>
+                    </tr>
+                </table>		
+            </td>	
+        </tr>
+    </table>
+    <br>
+    <br>
+
+    
+    <form  method="post" action = phpGetAllOrders.php  solid #ccc>
+        <div class="container" align ="center">
+          <div class="clearfix">
+            <button id= getOrdersbtn type="submit"  >get all orders</button>
+          </div>
+        </div>
+    </form>
+    <form  method="post" action = phpGetAllUsers.php  solid #ccc>
+        <div class="container" align ="center">
+          <div class="clearfix">
+            <button id= getUsersbtn type="submit"  >get all users</button>
+          </div>
+        </div>
+        
+    </form>
+    <form  method="post" action = phpGetContacts.php  solid #ccc>
+        <div class="container" align ="center">
+          <div class="clearfix">
+            <button id= getContactbtn type="submit"  >get all contacts</button>
+          </div>
+        </div>
+    </form>
+    
+
+<br>
+<br>
+    <div id="TopThreeHeader">My top three places</div>
+    <div id = "TopThreePic">
+        <div><img src="imgTop\1.png" onclick="topOne()"></div>
+        <div><img src="imgTop\4.png" onclick="topTwo()"></div>
+        <div><img src="imgTop\3.png" onclick="topThree()"></div>
+    </div>
+
+    <div id="footer">&#x1f600 Enjoy! 😎</div>
+
+<!--this is the java script section-->
+<script src="js/jsHomePage.js"></script>
+</body>
+</html>
