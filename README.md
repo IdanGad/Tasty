@@ -1,5 +1,5 @@
 # Tasty
-This repo contains a website that users can order restaurants reservation
+This repo contains a website that users can order restaurant's reservations
 
 Notice:
 1. there is a seperation between HTML, CSS, JS and PHP files.
